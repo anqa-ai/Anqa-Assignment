@@ -14,9 +14,7 @@
     "lint": "eslint packages --ext .js,.jsx",
     "lint:fix": "eslint packages --ext .js,.jsx --fix",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "build": "npm run build --workspaces",
-    "gen:interface": "node scripts/generate-interface.js",
-    "remove:interface": "node scripts/remove-interface.js"
+    "build": "npm run build --workspaces"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^6.4.5",

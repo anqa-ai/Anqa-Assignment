@@ -5,7 +5,10 @@ This repository contains a stripped-down version of our web interfaces and API d
 
 ## What's Included
 - **`raw-webapp-template/`** - A Next.js application with sample interfaces (PDF signer, SAQ form)
+- **`raw-webapp-template/.env.example`** provides the example for a .env with the required headers for interacting with the API backend (we will provide these for you)
+   - in the case that you wish to make API calls diretly (via Postman, curl etc...) you need to set the headers as `x-client-uuid` and `x-api-key` provided in the .env
 - **`openapi.json`** - Complete API specification with all available endpoints
+
 
 ## API Documentation
 Review the `openapi.json` file for details on all available API endpoints and their schemas.
@@ -27,6 +30,7 @@ Build a complete, modular workflow that connects independent interfaces into a c
 Your solution should demonstrate:
 
 1. **Authentication**
+   - Setup a new Authentication interface
    - Implement authentication using AWS Cognito to obtain JWT tokens
    - Explore the API documentation to understand authentication requirements and endpoints
    - Protect interfaces—unauthenticated users should be redirected

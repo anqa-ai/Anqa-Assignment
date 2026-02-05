@@ -401,14 +401,6 @@ curl -v https://client-a.anqa.ai/{interface_uuid}
 
 ---
 
-## 🔗 Related Documentation
-
-- **Full Implementation Plan**: [DUAL_DEPLOYMENT_IMPLEMENTATION_PLAN.md](./DUAL_DEPLOYMENT_IMPLEMENTATION_PLAN.md)
-- **Architecture Decisions**: [ARCHITECTURE_DECISIONS.md](./ARCHITECTURE_DECISIONS.md)
-- **Integration Guide**: [INTEGRATION_PLAN.md](./INTEGRATION_PLAN.md)
-- **Interface Development**: [interface-repo-roadmap.md](./interface-repo-roadmap.md)
-
----
 
 ## 🆘 Support Contacts
 
